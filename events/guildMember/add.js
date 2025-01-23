@@ -15,11 +15,11 @@ module.exports = {
             const embed = createEmbed(
                 `誰か来たよ`,
                 `**${user} が参加しました**\n
-                参加日: ${joinTime.toLocaleDateString('ja-JP', {
+                参加日: \`${joinTime.toLocaleDateString('ja-JP', {
                     year: 'numeric',
                     month: '2-digit',
                     day: '2-digit',
-                })}`
+                })}\``
             );
 
             const channel = client.channels.cache.get(config.rtaChannelId);
