@@ -1,0 +1,37 @@
+{
+  "name": "rta-bot",
+  "version": "1.0.0",
+  "description": "即抜けRTAボット",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VEDA00133912/DiscordLeaveRTA.git"
+  },
+  "keywords": [
+    "discord.js",
+    "javascript",
+    "discord-bot"
+  ],
+  "author": "りょう",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VEDA00133912/DiscordLeaveRTA/issues"
+  },
+  "homepage": "https://github.com/VEDA00133912/DiscordLeaveRTA#readme",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0"
+  }
+}
