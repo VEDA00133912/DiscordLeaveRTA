@@ -8,7 +8,7 @@ touch .env
 ・envファイルに書き込む
 ```
 DISCORD_TOKEN= DiscordBOTのToken
-MONGODB_URI
+MONGODB_URI= 自分のmongoDBのURI
 ```
 ・config.jsonにEmbedを送信するチャンネルを設定
 ```json
